@@ -1,9 +1,6 @@
 const timeContainer = document.querySelector(".time_container"),
       timeEl = timeContainer.querySelector("h1");
 
-console.log(timeContainer);
-console.log(timeEl);
-
 function getTime(){
     const date = new Date();
     const hours = date.getHours();
